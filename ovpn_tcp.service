@@ -1,0 +1,9 @@
+[Unit]
+Description=openvpn tcp listener
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/default/ovpn_tcp
+ExecStart=/usr/local/bin/ovpn_tcp.pl -D $OVPN_TCP_OPTS
+KillMode=process
+Restart=on-failure
