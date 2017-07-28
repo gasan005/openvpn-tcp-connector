@@ -1,0 +1,20 @@
+[Unit]
+Description=openvpn tcp listener
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/default/ovpn_tcp
+User=nobody
+Group=nogroup
+StandardOutput=syslog
+StandardError=inherit
+SyslogIdentifier=ovpn_tcp
+SyslogFacility=local1
+SyslogLevel=notice
+ExecStart=/usr/local/bin/ovpn_tcp.pl $OVPN_TCP_OPTS
+KillMode=process
+Restart=on-failure
+
+[Install]
+Alias=ovpn_tcp
+WantedBy=openvpn.service
