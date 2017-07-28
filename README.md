@@ -14,4 +14,4 @@ The conversion between the TCP stream and the UDP packets is based on the protoc
 Also provided is a systemd unit description 'ovpn_tcp.service' that enables 'ovpn_tcp.pl' as a
 systemd service.
 
-License: [license](license)
+License: [license](../master/license)
