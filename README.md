@@ -12,5 +12,5 @@ Almost all of the code is taken from the examples in the perldoc of the used mod
 The conversion between the TCP stream and the UDP packets is based on the protocol description in
 [ssl.h](https://sourceforge.net/p/openvpn/openvpn/ci/v2.1.4/tree/ssl.h "link to the sourceforge project").
 
-Also provided is a systemd unit description [ovpn_tcp.service](ovpn_tcp.service) that enables 'ovpn_tcp.pl' as a
+Also provided is a systemd unit description [ovpn_tcp.service](ovpn_tcp.service) that enables `ovpn_tcp.pl` as a
 systemd service.
