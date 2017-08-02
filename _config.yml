@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+title: An OpenVPN TCP connector
+description: Connect OpenVPN TCP clients to an UDP server
+gems:
+  - jekyll-sitemap
