@@ -126,6 +126,8 @@ exit;
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 ovpn_tcp.pl - openvpn tcp to udp connector
@@ -172,11 +174,11 @@ Default: 1194
 
 =head1 SEE ALSO
 
-POE, openvpn
+L<POE>, L<openvpn>
 
 =head1 AUTHOR
 
-Joerg Sommrey
+Jörg Sommrey
 
 =cut
 
