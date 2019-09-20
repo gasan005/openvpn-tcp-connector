@@ -5,7 +5,7 @@ The program [ovpn_tcp.pl](ovpn_tcp.pl) accepts clients on a TCP port and splits 
 forwarded as UDP packets to the OpenVPN server.
 Response packets from the server are streamed back to the client.
 See [perldoc](ovpn_tcp.md) or
-[repository](https://github.com/jo-37/ovpn-tcp-connector) for details.
+[repository](https://github.com/jo-37/openvpn-tcp-connector) for details.
 
 This is mostly a proof-of-concept and an exercise in using the POE framework.
 Almost all of the code is taken from examples in the perldoc of the used modules.
